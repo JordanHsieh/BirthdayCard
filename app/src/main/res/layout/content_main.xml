@@ -8,21 +8,34 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <ImageView
+        android:id="@+id/androidparty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop"/>
+
     <TextView
         android:id="@+id/happyBirthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday!" />
+        android:text="Happy Birthday, Sarah!"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:layout_margin="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="From, Jordan Hsieh" />
+        android:text="From, Jordan Hsieh"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp" />
 
-    <ImageView
-        android:id="@+id/androidparty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidparty" />
+
 
 </RelativeLayout>
